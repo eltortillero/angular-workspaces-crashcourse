@@ -4,13 +4,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This is a Vanilla Angular workspace to recreate from first commit to last commit follow the next steps
 ## Code Along Steps
 ### To create a Angular workspace with the Angular CLI 
-    #### To create the workspace  
+    To create the workspace:  
     ng new angular-workspace --createApplication=false 
-    #### To create an application 
+    To create an application: 
     ng generate application client -> routing no, styles scss -> ng serve --project client
     ng generate application dashboard -> routing yes, styles scss -> ng serve --project dashboard
-    #### To create a common library
-    ng generate library shared
+    To create a common library:
+    ng generate library shared --prefix shared 
+    by default a library has a exported component, this component can be deleted if wanted 
+    as well the default styles .file will be css.
+    in this case it wont be deleted we are going to create a second component using the next command:
+    ng generate component /components/wonderful-title --project shared --export
+    we are going to work a little on the component wonderful-title for a brief moment.
 
 ## Development server
 
