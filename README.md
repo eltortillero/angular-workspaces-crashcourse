@@ -16,7 +16,10 @@ This project was generated using [Nx](https://nx.dev).
     To create our first app we run the next command: 
     yarn nx g @nrwl/angular:app dashboard --routing=true
     we select scss as our stylesheet preprocessor and we are ready to rock
-    
+    To create the second app we run the next command;
+    yarn nx g @nrwl/angular:app client   
+    this time a routing selection promp will come up we are gonna select no or false, and the styles preprocessor
+    won't come up this time, this means that the first setted a default selected style preprocessor 
 
 
 ## Adding capabilities to your workspace
