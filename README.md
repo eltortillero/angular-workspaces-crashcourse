@@ -11,6 +11,8 @@ This project was generated using [Nx](https://nx.dev).
 ## Crashcourse commands
     To create this nx workspace we need to create a empty one with the next command:
     yarn create nx-workspace nx-angular-workspace --packageManager=yarn
+    To add Angular support to the Nx workspace run:
+    yarn add -D @nrwl/angular -> this saves the developer dependencies
     
 
 
