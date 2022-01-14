@@ -1,6 +1,16 @@
 # AngularWorkspace
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+This is a Vanilla Angular workspace to recreate from first commit to last commit follow the next steps
+## Code Along Steps
+### To create a Angular workspace with the Angular CLI 
+    #### To create the workspace  
+    ng new angular-workspace --createApplication=false 
+    #### To create an application 
+    ng generate application client
+    ng generate application dashboard
+    #### To create a common library
+    ng generate library shared-components
 
 ## Development server
 
