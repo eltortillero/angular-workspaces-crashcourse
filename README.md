@@ -7,10 +7,10 @@ This is a Vanilla Angular workspace to recreate from first commit to last commit
     #### To create the workspace  
     ng new angular-workspace --createApplication=false 
     #### To create an application 
-    ng generate application client
-    ng generate application dashboard
+    ng generate application client -> routing no, styles scss -> ng serve --project client
+    ng generate application dashboard -> routing yes, styles scss -> ng serve --project dashboard
     #### To create a common library
-    ng generate library shared-components
+    ng generate library shared
 
 ## Development server
 
