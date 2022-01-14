@@ -13,6 +13,9 @@ This project was generated using [Nx](https://nx.dev).
     yarn create nx-workspace nx-angular-workspace --packageManager=yarn
     To add Angular support to the Nx workspace run:
     yarn add -D @nrwl/angular -> this saves the developer dependencies
+    To create our first app we run the next command: 
+    yarn nx g @nrwl/angular:app dashboard --routing=true
+    we select scss as our stylesheet preprocessor and we are ready to rock
     
 
 
