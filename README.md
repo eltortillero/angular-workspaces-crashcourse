@@ -22,7 +22,12 @@ This project was generated using [Nx](https://nx.dev).
     won't come up this time, this means that the first setted a default selected style preprocessor 
     to create a shared library 
     nx g @nrwl/angular:lib shared 
-    this will create our library and we can target this the library to make our shared component
+    this will create our library and we can target this the library to make our shared component with the next command:
+    nx g @nrwl/angular:component /component/wonderful-title --project=share --export
+    this will generate a component in the wonderful-title and export thanks to the --export flag 
+    now we import the shared module and make use of the nx-angular-workspace-wonderful-title 
+
+
 
 
 ## Adding capabilities to your workspace
