@@ -20,6 +20,9 @@ This project was generated using [Nx](https://nx.dev).
     yarn nx g @nrwl/angular:app client   
     this time a routing selection promp will come up we are gonna select no or false, and the styles preprocessor
     won't come up this time, this means that the first setted a default selected style preprocessor 
+    to create a shared library 
+    nx g @nrwl/angular:lib shared 
+    this will create our library and we can target this the library to make our shared component
 
 
 ## Adding capabilities to your workspace

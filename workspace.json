@@ -4,6 +4,7 @@
     "client": "apps/client",
     "client-e2e": "apps/client-e2e",
     "dashboard": "apps/dashboard",
-    "dashboard-e2e": "apps/dashboard-e2e"
+    "dashboard-e2e": "apps/dashboard-e2e",
+    "shared": "libs/shared"
   }
 }
